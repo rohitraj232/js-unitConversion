@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    background-color: #30336b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.box h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+select {
+    width: 90%;
+    padding: 12px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.btn {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cnv-btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #30336b;
+    color: #fff;
+    padding: 10px;
+    width: 200px;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.message p {
+    margin: 20px;
+    text-align: center;
+    font-weight: 600;
+}
